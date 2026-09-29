@@ -2,6 +2,8 @@
 
 基于 STM32F427 的 CAN 总线测试工程，将 CAN 的发送与接收封装为独立库 `can_lib`。外设位时序（波特率、Prescaler、BS1/BS2、SJW 等）由 CubeMX 配置，库通过简洁的 API 完成启动、滤波配置、收发与中断接收。
 
+ **注意：你可以使用dist目录下的configure_can_lib.exe直接一键配置库** 
+
 ## 文件结构
 
 | 文件                      | 说明                                        |
